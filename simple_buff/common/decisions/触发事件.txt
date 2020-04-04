@@ -1,0 +1,40 @@
+触发事件 =
+{
+	为了冈比亚1 =
+	{
+		complete_effect = { country_event = { id = for_gam.1 } }
+		ai_will_do = { factor = 0 }
+	}
+	为了冈比亚2 =
+	{
+		complete_effect = { country_event = { id = for_gam.2 } }
+		ai_will_do = { factor = 0 }
+	}
+	
+	为了苏联1 =
+	{
+		complete_effect = { country_event = { id = for_sov.1 } }
+		ai_will_do = { factor = 0 }
+	}
+	为了苏联3 =
+	{
+		complete_effect = { country_event = { id = for_sov.3 } }
+		ai_will_do = { factor = 0 }
+	}
+	为了苏联4 =
+	{
+		complete_effect = { country_event = { id = for_sov.4 } }
+		ai_will_do = { factor = 0 }
+	}
+	为了苏联5 =
+	{
+		complete_effect = { country_event = { id = for_sov.5 } }
+		ai_will_do = { factor = 0 }
+	}
+	
+	为了美国 =
+	{
+		complete_effect = { country_event = { id = for_usa.1 } }
+		ai_will_do = { factor = 0 }
+	}
+}

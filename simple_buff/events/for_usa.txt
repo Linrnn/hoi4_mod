@@ -1,0 +1,107 @@
+add_namespace = for_usa
+country_event =
+{
+	id = for_usa.1
+	title = "美利坚的崛起之路"
+	desc = "美利坚合众国今天开始崛起！"
+	is_triggered_only = yes
+	option =
+	{
+		name = "崛起"
+		GAM =
+		{
+			annex_country =
+			{
+				target = GER
+				transfer_troops = no
+			}
+			release = WGR
+		}
+		ENG = { dismantle_faction = yes }
+		USA =
+		{
+			country_event =	for_usa.2
+			country_event = for_others.1
+			dismantle_faction = yes
+			create_faction = "北大西洋公约组织"
+			add_popularity =
+			{
+				ideology = democratic
+				popularity = 1
+			}
+			transfer_state = 100	#冰岛
+			release = ICE
+			puppet = ITA
+			puppet = JAP
+			puppet = WGR
+		}
+		GRE = { transfer_state = 164 }
+		CAN =
+		{
+			transfer_state = 331
+			transfer_state = 332
+		}
+		WGR =
+		{
+			51 = { set_demilitarized_zone = no }
+			42 = { set_demilitarized_zone = no }
+			set_capital = 51
+		}
+		#change_tag_from = GAM
+	}
+	option =
+	{
+		name = "继续"
+		USA =
+		{
+			country_event = for_usa.2 
+			country_event = for_others.1
+		}
+	}
+	option = { name = "退出" }
+}
+country_event =
+{
+	id = for_usa.2
+	title = "加入北约吧！"
+	desc = "为了欧洲的和平，加入北约，对抗苏联吧！"
+	is_triggered_only = yes
+	option =
+	{
+		name = "来吧！"
+		USA =
+		{
+			add_to_faction = ICE
+			add_to_faction = POR
+			add_to_faction = ENG
+			add_to_faction = FRA
+			add_to_faction = SPR
+			add_to_faction = LUX
+			add_to_faction = BEL
+			add_to_faction = HOL
+			add_to_faction = DEN
+			add_to_faction = NOR
+			add_to_faction = GRE
+			add_to_faction = TUR
+		}
+		FRA =
+		{
+				ideology = democratic
+				popularity = 1					#政党支持率
+		}
+		SPR =
+		{
+			set_politics =
+			{
+				ruling_party = fascism			#执政党
+				elections_allowed = no			#公众选举
+			}
+			add_popularity =
+			{
+				ideology = fascism
+				popularity = 1					#政党支持率
+			}
+		}
+	}
+	option = { name = "退出" }
+}

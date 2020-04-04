@@ -1,0 +1,200 @@
+ideas =
+{
+	trade_laws =				#经济法案
+	{ 
+		law = yes
+		without_reservation =	#毫无保留
+		{
+			cost = 150
+			modifier =
+			{
+				min_export = 1
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
+				production_speed_buildings_factor = 0.2
+				research_speed_factor = 0.2
+			}
+			cancel_if_invalid = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	country =
+	{
+		for_suzerain =				#宗主国的荣耀!
+		{
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier =
+			{
+				subjects_autonomy_gain = -10					#宗主国影响
+				consumer_goods_factor = -0.2					#生活消费品
+				stability_factor = 0.2							#稳定度
+				stability_weekly = 0.05							#每周稳定度
+				war_support_weekly = 0.05						#每周战争支持度
+				conscription = 0.05								#适役人口
+				production_factory_efficiency_gain_factor = 10	#生产效率增长
+			}
+			rule =
+			{
+				can_create_factions = yes			#允许创建阵营
+				can_send_volunteers = yes			#允许派遣志愿军
+			}
+		}
+		for_vassal = 				#被剥削的附庸
+		{
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = 
+			{
+				political_power_cost = 10							#每日消耗的政治点数
+				consumer_goods_factor = 1							#生活消费品
+				stability_factor = 0.2								#稳定度
+				stability_weekly = 0.05								#每周稳定度
+				war_support_weekly = 0.05							#每周战争支持度
+				conscription = 0.1									#适役人口
+				#conscription_factor = 1							#适役人口修正
+				industrial_capacity_factory = -10					#工厂产出
+				industrial_capacity_dockyard = -10					#海军船坞产出
+				production_factory_max_efficiency_factor = -1.5		#生产上限
+				production_factory_efficiency_gain_factor = -10		#生产效率增长
+			}
+		}
+		for_neutral					#永久中立国
+		{
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier =
+			{
+				political_power_cost = 10							#每日消耗的政治点数
+				consumer_goods_factor = 1							#生活消费品
+				stability_weekly = -0.05							#每周稳定度
+				war_support_weekly = -0.05							#每周战争支持度
+				conscription = -0.5									#适役人口
+				conscription_factor = -1							#适役人口修正
+				industrial_capacity_factory = -10					#工厂产出
+				industrial_capacity_dockyard = -10					#海军船坞产出
+				production_factory_max_efficiency_factor = -1.5		#生产上限
+				production_factory_efficiency_gain_factor = -10		#生产效率增长
+				#fascism_drift = -0.2								#法西斯主义理念每日新增支持率
+				#communism_drift = -0.2								#共产主义理念每日新增支持率
+				#democratic_drift = -0.2							#民主理念每日新增支持率
+				neutrality_drift = 0.4								#中立派每日新增支持率
+			}
+		}
+		for_political_power =			#为了点数
+		{
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { political_power_factor = 5 }	#政治点数
+		}
+		for_subjects_autonomy_gain =	#为了独立
+		{
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { subjects_autonomy_gain = 20 }	#宗主国影响	
+		}
+		for_life =						#为了生活
+		{
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { consumer_goods_factor = -1.5 }	#生活消费品
+		}
+		for_communism =					#为了共产主义
+		{
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { communism_drift = 1 }
+		}
+		for_no_air =					#禁止飞机
+		{
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			equipment_bonus =
+			{
+				fighter_equipment =
+				{
+					instant = yes
+					build_cost_ic = 100
+				}
+				cv_fighter_equipment =
+				{
+					instant = yes
+					build_cost_ic = 100
+				}
+				jet_fighter_equipment =
+				{
+					instant = yes
+					build_cost_ic = 100
+				}
+				cv_CAS_equipment =
+				{
+					instant = yes
+					build_cost_ic = 100
+				}
+				CAS_equipment =
+				{
+					instant = yes
+					build_cost_ic = 100
+				}
+				nav_bomber_equipment =
+				{
+					instant = yes
+					build_cost_ic = 100
+				}
+				cv_nav_bomber_equipment =
+				{
+					instant = yes
+					build_cost_ic = 100
+				}
+				rocket_interceptor_equipment =
+				{
+					instant = yes
+					build_cost_ic = 100
+				}
+				tac_bomber_equipment =
+				{
+					instant = yes
+					build_cost_ic = 100
+				}
+				jet_tac_bomber_equipment =
+				{
+					instant = yes
+					build_cost_ic = 100
+				}
+				jet_strat_bomber_equipment =
+				{
+					instant = yes
+					build_cost_ic = 100
+				}
+				heavy_fighter_equipment =
+				{
+					instant = yes
+					build_cost_ic = 100
+				}
+				strat_bomber_equipment =
+				{
+					instant = yes
+					build_cost_ic = 100
+				}
+				transport_plane_equipment =
+				{
+					instant = yes
+					build_cost_ic = 100
+				}
+				guided_missile_equipment =
+				{
+					instant = yes
+					build_cost_ic = 100
+				}
+			}
+		}
+	}
+}

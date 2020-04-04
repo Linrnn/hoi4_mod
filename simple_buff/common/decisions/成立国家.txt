@@ -1,0 +1,248 @@
+成立国家 =
+{
+	成立欧盟 =
+	{
+		visible =
+		{
+			NOT = { has_global_flag = form_european_union_flag }
+		}
+		available =
+		{
+			is_subject = no
+			controls_state = 8
+			# Netherlands
+			custom_trigger_tooltip =
+			{
+				tooltip = form_eu_netherlands_required_states_tt
+				controls_state = 7
+				controls_state = 35
+				controls_state = 36
+			}
+			# Belgium
+			custom_trigger_tooltip =
+			{
+				tooltip = form_eu_belgium_required_states_tt
+				controls_state = 6
+				controls_state = 34
+			}
+			# France
+			custom_trigger_tooltip =
+			{
+				tooltip = form_eu_france_required_states_tt
+				controls_state = 29
+				controls_state = 18
+				controls_state = 17
+				controls_state = 28
+				controls_state = 15
+				controls_state = 16
+				controls_state = 27
+				controls_state = 14
+				controls_state = 30
+				controls_state = 24
+				controls_state = 23
+				controls_state = 33
+				controls_state = 26
+				controls_state = 20
+				controls_state = 32
+				controls_state = 735
+				controls_state = 25
+				controls_state = 22
+				controls_state = 21
+				controls_state = 19
+				controls_state = 20
+				controls_state = 1
+			}
+			# Italy
+			custom_trigger_tooltip =
+			{
+				tooltip = form_eu_italy_required_states_tt
+				controls_state = 158
+				controls_state = 159
+				controls_state = 39
+				controls_state = 160
+				controls_state = 161
+				controls_state = 162
+				controls_state = 157
+				controls_state = 2
+				controls_state = 117
+				controls_state = 156
+				controls_state = 115
+				controls_state = 114
+				#controls_state = 736
+				#controls_state = 163
+			}
+			# Germany
+			custom_trigger_tooltip =
+			{
+				tooltip = form_country_germany_required_states_tt
+				controls_state = 51
+				controls_state = 42
+				controls_state = 56
+				controls_state = 57
+				controls_state = 55
+				controls_state = 50
+				controls_state = 59
+				controls_state = 58
+				controls_state = 60
+				controls_state = 54
+				controls_state = 52
+				controls_state = 53
+				controls_state = 61
+				controls_state = 64
+				controls_state = 65
+				controls_state = 62
+				#controls_state = 68
+				#controls_state = 66
+				#controls_state = 67
+				#controls_state = 63
+				#controls_state = 5
+			}
+		}
+
+		complete_effect =
+		{
+			dismantle_faction = yes
+			create_faction = "欧罗巴联盟"
+			set_capital = 6		#迁都
+			set_cosmetic_tag = EUR_UNIFIED
+
+			hidden_effect =
+			{
+				#卢森堡
+				8 = { add_core_of = ROOT }
+				#比利时
+				6 = { add_core_of = ROOT }
+				34 = { add_core_of = ROOT }
+				#荷兰
+				7 = { add_core_of = ROOT }
+				35 = { add_core_of = ROOT }
+				36 = { add_core_of = ROOT }
+			}
+			# France
+			custom_effect_tooltip = form_eu_france_coring_states_tt
+			hidden_effect =
+			{
+				29 = { add_core_of = ROOT }
+				18 = { add_core_of = ROOT }
+				17 = { add_core_of = ROOT }
+				28 = { add_core_of = ROOT }
+				15 = { add_core_of = ROOT }
+				16 = { add_core_of = ROOT }
+				27 = { add_core_of = ROOT }
+				14 = { add_core_of = ROOT }
+				30 = { add_core_of = ROOT }
+				24 = { add_core_of = ROOT }
+				23 = { add_core_of = ROOT }
+				33 = { add_core_of = ROOT }
+				26 = { add_core_of = ROOT }
+				20 = { add_core_of = ROOT }
+				32 = { add_core_of = ROOT }
+				735 = { add_core_of = ROOT }
+				25 = { add_core_of = ROOT }
+				22 = { add_core_of = ROOT }
+				21 = { add_core_of = ROOT }
+				19 = { add_core_of = ROOT }
+				20 = { add_core_of = ROOT }
+				1 = { add_core_of = ROOT }
+			}
+			# Italy
+			custom_effect_tooltip = form_eu_italy_coring_states_tt
+			hidden_effect =
+			{
+				158 = { add_core_of = ROOT }
+				159 = { add_core_of = ROOT }
+				39 = { add_core_of = ROOT }
+				160 = { add_core_of = ROOT }
+				161 = { add_core_of = ROOT }
+				162 = { add_core_of = ROOT }
+				157 = { add_core_of = ROOT }
+				2 = { add_core_of = ROOT }
+				117 = { add_core_of = ROOT }
+				156 = { add_core_of = ROOT }
+				115 = { add_core_of = ROOT }
+				114 = { add_core_of = ROOT }
+				#736 = { add_core_of = ROOT }
+				#163 = { add_core_of = ROOT }
+			}
+			# Germany
+			custom_effect_tooltip = form_country_germany_coring_states_tt
+			hidden_effect =
+			{
+				51 = { add_core_of = ROOT }
+				42 = { add_core_of = ROOT }
+				56 = { add_core_of = ROOT }
+				57 = { add_core_of = ROOT }
+				55 = { add_core_of = ROOT }
+				50 = { add_core_of = ROOT }
+				59 = { add_core_of = ROOT }
+				58 = { add_core_of = ROOT }
+				60 = { add_core_of = ROOT }
+				54 = { add_core_of = ROOT }
+				52 = { add_core_of = ROOT }
+				53 = { add_core_of = ROOT }
+				61 = { add_core_of = ROOT }
+				64 = { add_core_of = ROOT }
+				65 = { add_core_of = ROOT }
+				62 = { add_core_of = ROOT }
+				#68 = { add_core_of = ROOT }
+				#66 = { add_core_of = ROOT }
+				#67 = { add_core_of = ROOT }
+				#63 = { add_core_of = ROOT }
+				#5 = { add_core_of = ROOT }
+			}
+			hidden_effect =
+			{
+				news_event = { id = wtt_news.62 hours = 6 }
+				set_global_flag = form_european_union_flag
+			}
+		}
+
+		ai_will_do = { factor = 0 }
+	}
+	
+	一统低地 =
+	{
+		visible =
+		{
+			NOT = { has_global_flag = yitongdidi }
+		}
+		complete_effect =
+		{
+			set_global_flag = yitongdidi
+			annex_country = { target = LUX transfer_troops = yes }
+			annex_country = { target = HOL transfer_troops = yes }
+		}
+	}
+	
+	建立欧盟1 =
+	{
+		visible =
+		{
+			NOT = { has_global_flag = jianlioumeng1 }
+		}
+		complete_effect =
+		{
+			set_global_flag = jianlioumeng1
+			annex_country = { target = ENG transfer_troops = yes }
+			annex_country = { target = FRA transfer_troops = yes }
+			annex_country = { target = ITA transfer_troops = yes }
+			annex_country = { target = YUG transfer_troops = yes }
+			annex_country = { target = HUN transfer_troops = yes }
+		}
+	}
+	建立欧盟2 =
+	{
+		visible =
+		{
+			NOT = { has_global_flag = jianlioumeng2 }
+		}
+		complete_effect =
+		{
+			set_global_flag = jianlioumeng2
+			annex_country = { target = GER transfer_troops = yes }
+			annex_country = { target = POL transfer_troops = yes }
+			annex_country = { target = CZE transfer_troops = yes }
+			annex_country = { target = ROM transfer_troops = yes }
+		}
+	}
+}

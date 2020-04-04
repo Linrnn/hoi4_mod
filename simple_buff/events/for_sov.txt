@@ -1,0 +1,206 @@
+add_namespace = for_sov
+country_event =
+{
+	id = for_sov.1
+	title = "一切荣耀归于苏维埃！"
+	desc = "此时此刻，共产主义崛起了！而伟大的苏联成为了共产世界的领头人！"
+	is_triggered_only = yes
+	option =
+	{
+		name = "崛起吧！"
+		GAM =
+		{
+			#	中共
+			annex_country = { target = MAN transfer_troops = no }
+			annex_country = { target = MEN transfer_troops = no }
+			annex_country = { target = XSM transfer_troops = no }
+			annex_country = { target = SIK transfer_troops = no }
+			annex_country = { target = TIB transfer_troops = no }
+			annex_country = { target = SHX transfer_troops = no }
+			annex_country = { target = YUN transfer_troops = no }
+			annex_country = { target = GXC transfer_troops = no }
+			annex_country = { target = CHI transfer_troops = no }
+			annex_country = { target = PRC transfer_troops = no }
+			#	苏联
+			annex_country = { target = EST transfer_troops = no }
+			annex_country = { target = LAT transfer_troops = no }
+			annex_country = { target = LIT transfer_troops = no }
+			annex_country = { target = TAN transfer_troops = no }
+		}
+		SOV =
+		{
+			country_event = for_sov.2
+			country_event = for_others.1
+			dismantle_faction = yes		#解散阵营
+			create_faction = "华沙条约组织"
+			add_popularity =
+			{
+				ideology = communism
+				popularity = 1
+			}
+			puppet = POL
+			puppet = CZE
+			puppet = HUN
+			puppet = ROM
+			puppet = BUL
+			puppet = YUG
+			puppet = ALB
+			puppet = MON
+			#puppet = PRC
+			#	芬兰
+			transfer_state = 722
+			transfer_state = 147
+			transfer_state = 146
+			#	爱沙尼亚
+			transfer_state = 13
+			transfer_state = 191
+			#	拉脱维亚
+			transfer_state = 190
+			transfer_state = 12
+			#	立陶宛
+			transfer_state = 11
+			transfer_state = 189
+			transfer_state = 188
+			#	德国
+			transfer_state = 763
+			transfer_state = 62
+			transfer_state = 61
+			transfer_state = 64
+			transfer_state = 65
+			transfer_state = 60
+			#	波兰
+			transfer_state = 784
+			transfer_state = 96
+			transfer_state = 95
+			transfer_state = 94
+			transfer_state = 93
+			transfer_state = 91
+			transfer_state = 89
+			#	捷克斯洛伐克
+			transfer_state = 73
+			#	罗马尼亚
+			transfer_state = 80
+			transfer_state = 78
+			transfer_state = 766
+			#	唐努图瓦
+			transfer_state = 329
+			#	日本
+			transfer_state = 537
+			transfer_state = 555
+			transfer_state = 527
+			transfer_state = 525
+			#	法国
+			transfer_state = 671
+			transfer_state = 670
+			transfer_state = 286
+		}
+	}
+	option =
+	{
+		name = "继续"
+		SOV =
+		{
+			country_event = for_sov.2
+			country_event = for_others.1
+		}
+	}
+	option = { name = "退出" }
+}
+country_event =
+{
+	id = for_sov.2
+	title = "一人得道，鸡犬升天"
+	desc = "仅仅是苏维埃强大是远远不够的，来吧，一起变秃吧！"
+	is_triggered_only = yes
+	option =
+	{
+		name = "一起变强！"
+		SOV =
+		{
+			release = DDR	puppet = DDR
+			release = KOR	puppet = KOR
+			release = VIN	puppet = VIN
+			release = LAO	puppet = LAO
+		}
+		POL = 
+		{
+			transfer_state = 5
+			transfer_state = 63
+			transfer_state = 68
+			transfer_state = 66
+			transfer_state = 67
+		}
+		YUG = 
+		{
+			transfer_state = 736
+			transfer_state = 163
+		}
+		BUL = { transfer_state = 77 }
+		GAM = { release = PRC }
+		PRC =
+		{
+			transfer_state = 745
+			transfer_state = 609
+			transfer_state = 524
+			transfer_state = 728
+			transfer_state = 326
+			transfer_state = 729
+			transfer_state = 322
+			transfer_state = 757
+			transfer_state = 758
+			transfer_state = 434
+		}
+	}
+	option = { name = "退出" }
+}
+country_event =
+{
+	id = for_sov.3
+	title = "中共屈服了"
+	desc = "曾经的中国共产党已经不复存在，因为他们屈服在了苏维埃的淫威之下。"
+	is_triggered_only = yes
+	option =
+	{
+		name = "耻辱啊！"
+		SOV = { puppet = PRC }
+	}
+	option = { name = "退出" }
+}
+country_event =
+{
+	id = for_sov.4
+	title = "撕毁特里亚农条约"
+	desc = "特里亚农是什么？不知道啊。"
+	is_triggered_only = yes
+	option =
+	{
+		name = "不知道"
+		HUN = { remove_ideas = HUN_treaty_of_triannon }
+	}
+	option = { name = "退出" }
+}
+country_event =
+{
+	id = for_sov.5
+	title = "共产，共产"
+	desc = "大家一起来共产啊~"
+	is_triggered_only = yes
+	option =
+	{
+		name = "来来来"
+		POL = { add_ideas = for_communism }
+		DDR = { add_ideas = for_communism }
+		CZE = { add_ideas = for_communism }
+		HUN = { add_ideas = for_communism }
+		YUG = { add_ideas = for_communism }
+		ALB = { add_ideas = for_communism }
+		ROM = { add_ideas = for_communism }
+		BUL = { add_ideas = for_communism }
+		PRC = { add_ideas = for_communism }
+		MON = { add_ideas = for_communism }
+		KOR = { add_ideas = for_communism }
+		VIN = { add_ideas = for_communism }
+		LAO = { add_ideas = for_communism }
+	}
+	option = { name = "退出" }
+}

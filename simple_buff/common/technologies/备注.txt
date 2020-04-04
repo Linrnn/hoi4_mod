@@ -1,0 +1,12 @@
+#electronic_mechanical_engineering.txt
+#{
+#	jet_engines
+#	{	
+#		ÔÚ start_year = 1944 ÉÏ Ìí¼Ó
+#		path =
+#		{
+#			leads_to_tech = experimental_rockets
+#			research_cost_coeff = 1
+#		}
+#	}
+#}
