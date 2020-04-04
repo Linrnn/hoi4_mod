@@ -1,0 +1,21 @@
+state =
+{
+	id = 529
+	name = "STATE_529"
+	manpower = 5341000
+	state_category = large_city
+	history =
+	{
+		owner = LO0
+		victory_points = {
+			1092 30
+		}
+		buildings =
+		{
+			1092 = { naval_base = 8 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1092 1167 1191 4197 7050 7145 7212 9968 10052 10055 11946 11985 }
+}

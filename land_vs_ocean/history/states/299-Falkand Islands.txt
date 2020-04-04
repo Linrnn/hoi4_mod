@@ -1,0 +1,14 @@
+state =
+{
+	id = 299
+	name = "STATE_299"
+	manpower = 2463
+	state_category = enclave
+	history =
+	{
+		owner = LO1
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 12960 }
+}

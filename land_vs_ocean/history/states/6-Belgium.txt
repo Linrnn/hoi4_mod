@@ -1,0 +1,28 @@
+state =
+{
+	id = 6
+	name = "STATE_6"
+	manpower = 4747700
+	state_category = metropolis
+	resources =
+	{
+		steel=25 # was: 48
+	}
+	history =
+	{
+		owner = LO1
+		victory_points = { 516 30 }
+		victory_points = { 6598 30 }
+		victory_points = { 6560 5 }
+		victory_points = { 13068 1 }
+		victory_points = { 3576 1 }
+		buildings =
+		{
+			6598 = { naval_base = 8 }
+			6560 = { naval_base = 3 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 516 3576 6446 6560 6598 9574 11419 13068 }
+}

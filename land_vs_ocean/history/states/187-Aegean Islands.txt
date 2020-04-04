@@ -1,0 +1,18 @@
+state =
+{
+	id = 187
+	name = "STATE_187"
+	manpower = 322600
+	state_category = small_island
+	resources =
+	{
+		chromium=7 # was: 10
+	}
+	history =
+	{
+		owner = LO1
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 3401 6550 8435 }
+}

@@ -1,0 +1,21 @@
+state =
+{
+	id = 411
+	name = "STATE_411"
+	manpower = 885272
+	state_category = rural
+	resources =
+	{
+		oil=12 # was: 14
+	}
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			2026 1 
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1963 2026 4928 4983 5067 8031 8074 10828 12756 }
+}

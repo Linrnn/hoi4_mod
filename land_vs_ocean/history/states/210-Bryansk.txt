@@ -1,0 +1,17 @@
+state =
+{
+	id = 210
+	name = "STATE_210"
+	manpower = 830133
+	state_category = rural
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			11234 1
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 207 248 354 387 3333 6242 6293 9254 9331 9353 9386 11234 11259 }
+}

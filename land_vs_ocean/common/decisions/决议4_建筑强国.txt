@@ -1,0 +1,134 @@
+加成集合 =
+{
+	建筑强国 =
+	{
+		visible = { NOT = { has_global_flag = land_vs_ocean_add_building } }
+		available =
+		{
+			has_global_flag = land_vs_ocean_add_resource
+			has_global_flag = land_vs_ocean_swap_state
+		}
+		complete_effect =
+		{
+			set_global_flag = land_vs_ocean_add_building
+			every_state =
+			{
+				add_extra_state_shared_building_slots = 25
+				set_building_level =
+				{
+					instant_build = yes
+					type = infrastructure
+					level = 10
+				}
+				set_building_level =
+				{
+					instant_build = yes
+					is_coastal = yes
+					type = arms_factory
+					level = 5
+				}
+				set_building_level =
+				{
+					instant_build = yes
+					is_coastal = yes
+					type = dockyard
+					level = 20
+				}
+				set_building_level =
+				{
+					instant_build = yes
+					is_coastal = no
+					type = industrial_complex
+					level = 5
+				}
+				set_building_level =
+				{
+					instant_build = yes
+					is_coastal = no
+					type = arms_factory
+					level = 20
+				}
+			}
+			
+			341 = { set_building_level = { instant_build = yes	type = naval_base	level = 10	province = 9833		} }
+			262 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 12530	} }
+			145 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 9228		} }
+			124 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 408		} }
+			37 	= { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 6361		} }
+			177 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 7114		} }
+			659 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 8000		} }
+			637 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 12207	} }
+			644 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13204	} }
+
+			361 = { set_building_level = { instant_build = yes	type = naval_base	level = 10	province = 3957		} }
+			730 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 377		} }
+			331 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 7788		} }
+			466 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 3691		} }
+			101 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13066	} }
+			337 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13003	} }
+			120 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 6196		} }
+			690 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 4647		} }
+			690 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 7245		} }
+			693 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 1513		} }
+			693 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 10440	} }
+			702 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13014	} }
+			703 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13013	} }
+			705 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13015	} }
+			704 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13016	} }
+			720 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 10995	} }
+			299 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 12960	} }
+
+			708 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13072	} }
+			706 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13017	} }
+			707 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13018	} }
+			709 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 2188		} }
+			710 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13019	} }
+			713 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 2165		} }
+			712 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13002	} }
+			711 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13005	} }
+			733 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 12251	} }
+
+			721 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 12206	} }
+			667 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 12234	} }
+			738 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 4579		} }
+			668 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 7557		} }
+			668 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 7413		} }
+			668 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 1351		} }
+			626 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 7419		} }
+			627 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 10184	} }
+			
+			737 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 7339		} }
+			646 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13023	} }
+			684 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13030	} }
+			684 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13031	} }
+			684 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13032	} }
+			684 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13034	} }
+			684 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13035	} }
+			684 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13036	} }
+			648 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13026	} }
+			635 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 4247		} }
+			635 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 1237		} }
+			734 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 7390		} }
+			739 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 1869		} }
+			633 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13045	} }
+			633 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 1002		} }
+			633 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13043	} }
+			633 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13040	} }
+			633 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13039	} }
+			639 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 7393		} }
+			639 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 4387		} }
+			639 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13020	} }
+			643 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13057	} }
+			643 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13054	} }
+			642 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13050	} }
+			726 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13080	} }
+			630 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13051	} }
+			727 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13049	} }
+			727 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 13053	} }
+			641 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 12148	} }
+			270 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 1280		} }
+			649 = { set_building_level = { instant_build = yes	type = naval_base	level = 1	province = 5023		} }
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

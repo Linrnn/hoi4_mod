@@ -1,0 +1,17 @@
+state =
+{
+	id = 742
+	name = "STATE_742"
+	manpower = 230000
+	state_category = wasteland
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			1384 1
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1216 1384 1919 4542 7224 8027 10187 10417 12218 12250 12430 12805 }
+}

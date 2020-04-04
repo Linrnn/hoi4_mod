@@ -1,0 +1,21 @@
+state =
+{
+	id = 602
+	name = "STATE_602"
+	manpower = 20293700
+	state_category = town
+	resources =
+	{
+		tungsten=6.000
+	}
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			7097 5 
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1448 1640 4125 4480 7097 7159 7502 7665 9982 9999 10335 10377 10517 11918 12017 12053 12310 12350 12378 12483 13140 13143 }
+}

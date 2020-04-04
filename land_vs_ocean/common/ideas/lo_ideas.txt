@@ -1,0 +1,23 @@
+ideas =
+{	
+	country =
+	{
+		for_lo =
+		{
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			picture = generic_victors_of_ww1
+			modifier =
+			{
+				stability_factor = 0.3							#稳定度
+				war_support_factor = 0.3						#战争支持度
+				stability_weekly = 0.07							#每周稳定度
+				war_support_weekly = 0.07						#每周战争支持度
+				experience_gain_army = -500						#每日陆军经验
+				experience_gain_navy = 1						#每日海军经验
+				production_factory_efficiency_gain_factor = 10	#生产效率增长
+			}
+		}
+	}
+}

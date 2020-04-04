@@ -1,0 +1,21 @@
+state =
+{
+	id = 629
+	name = "STATE_629"
+	manpower = 368336
+	state_category = town
+	history =
+	{
+		owner = LO0
+		victory_points = {
+			4180 15
+		 }
+		buildings =
+		{
+			4180 = { naval_base = 5 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 4180 7112 7195 10048 12021 }
+}

@@ -1,0 +1,17 @@
+state =
+{
+	id = 89
+	name = "STATE_89"
+	manpower = 2180300
+	state_category = town
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			11411 1
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 3743 6431 6460 6483 9425 11411 11550 }
+}

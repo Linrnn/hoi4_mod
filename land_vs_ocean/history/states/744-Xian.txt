@@ -1,0 +1,17 @@
+state =
+{
+	id = 744
+	name = "STATE_744"
+	manpower = 9000000
+	state_category = town
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			7418 1 
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1976 2006 4167 4256 4295 5092 7301 7406 7418 10257 12713 }
+}

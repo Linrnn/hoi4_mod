@@ -1,0 +1,18 @@
+state =
+{
+	id = 577
+	name = "STATE_577"
+	manpower = 29299
+	state_category = wasteland
+	resources =
+	{
+		oil=13 # was: 14
+	}
+	history =
+	{
+		owner = LO1
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1726 1768 1784 1856 4730 4771 4817 7685 7781 7837 7882 10533 10561 10663 10692 12514 12542 12574 12639 12672 }
+}

@@ -1,0 +1,21 @@
+state =
+{
+	id = 297
+	name = "STATE_297"
+	manpower = 185000
+	state_category = enclave
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			1903 1 
+		}
+		buildings =
+		{
+			1903 = { naval_base = 1 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1903 8244 }
+}

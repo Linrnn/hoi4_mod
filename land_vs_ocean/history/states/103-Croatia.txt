@@ -1,0 +1,25 @@
+state =
+{
+	id = 103
+	name = "STATE_103"
+	manpower = 1431700
+	state_category = large_town
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			3924 3
+		}
+		victory_points = {
+			11564 1 
+		}
+		buildings =
+		{
+			3924 = { naval_base = 2 }
+			11564 = { naval_base = 1 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 591 984 3601 3868 3924 3974 6611 6889 11564 11816 11901 }
+}

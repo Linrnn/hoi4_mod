@@ -1,0 +1,14 @@
+state =
+{
+	id = 609
+	name = "STATE_609"
+	manpower = 6400000
+	state_category = town
+	history =
+	{
+		owner = LO0
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 900 1052 3830 3900 6969 11822 12043 }
+}

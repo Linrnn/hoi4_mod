@@ -1,0 +1,14 @@
+bookmarks =
+{
+	bookmark =
+	{
+		name = "GATHERING_STORM_NAME"
+		date = 1950.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "LO0"
+		default = yes
+		"LO1" = { ideology = communism }
+		"LO0" = { ideology = democratic }
+		effect = { randomize_weather = 22345 }
+	}
+}

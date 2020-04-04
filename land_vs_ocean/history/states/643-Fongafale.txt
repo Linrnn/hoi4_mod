@@ -1,0 +1,14 @@
+state =
+{
+	id = 643
+	name = "STATE_643"
+	manpower = 493
+	state_category = small_island
+	history =
+	{
+		owner = LO1
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 13054 13055 13056 13057 }
+}

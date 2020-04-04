@@ -1,0 +1,21 @@
+state =
+{
+	id = 737
+	name = "STATE_737"
+	manpower = 345640
+	state_category = rural
+	history =
+	{
+		owner = LO0
+		victory_points = {
+			7251 5 
+		}
+		buildings =
+		{
+			7251 = { naval_base = 3 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1286 1301 1329 1361 4304 4332 4352 4421 7251 7324 7339 7352 7412 10166 10206 12222 }
+}

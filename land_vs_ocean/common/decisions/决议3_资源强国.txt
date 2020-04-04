@@ -1,0 +1,100 @@
+#oil 油 aluminium 铝 rubber 橡胶 tungsten 钨 steel 钢 chromium 铬
+#add_resource = { state = type = amount =  }
+# = { add_resource = { type = amount =  } }
+加成集合 =
+{
+	资源强国 =
+	{
+		visible = { NOT = { has_global_flag = land_vs_ocean_add_resource } }
+		complete_effect =
+		{
+			set_global_flag = land_vs_ocean_add_resource
+
+			#国策 澳大利亚
+			add_resource = { state = 519	type = oil			amount = 12	}
+			add_resource = { state = 521	type = aluminium	amount = 24	}
+			#国策 加拿大	
+			add_resource = { state = 466	type = aluminium	amount = 8	}
+			add_resource = { state = 468	type = aluminium	amount = 8	}
+			add_resource = { state = 470	type = oil			amount = 2	}
+			add_resource = { state = 470	type = oil			amount = 36	}
+			add_resource = { state = 471	type = oil			amount = 4	}
+			add_resource = { state = 472	type = oil			amount = 4	}
+			add_resource = { state = 682	type = aluminium	amount = 20	}
+			add_resource = { state = 683	type = oil			amount = 4	}
+			add_resource = { state = 472	type = steel		amount = 2	}
+			add_resource = { state = 472	type = steel		amount = 2	}
+			add_resource = { state = 683	type = chromium		amount = 3	}
+			#国策 匈牙利
+			add_resource = { state = 43		type = aluminium	amount = 16	}
+			add_resource = { state = 43		type = aluminium	amount = 16	}
+			add_resource = { state = 43		type = steel		amount = 12	}
+			#国策 印度
+			add_resource = { state = 432	type = oil			amount = 3	}
+			add_resource = { state = 439	type = steel		amount = 24	}
+			#国策 意大利
+			add_resource = { state = 450	type = oil			amount = 4	}
+			add_resource = { state = 662	type = oil			amount = 8	}
+			#国策 日本
+			add_resource = { state = 282	type = aluminium	amount = 12	}
+			add_resource = { state = 325	type = aluminium	amount = 12	}
+			add_resource = { state = 328	type = aluminium	amount = 12	}
+			add_resource = { state = 336	type = aluminium	amount = 12	}
+			add_resource = { state = 564	type = aluminium	amount = 8	}
+			add_resource = { state = 605	type = aluminium	amount = 8	}
+			add_resource = { state = 671	type = aluminium	amount = 8	}
+			add_resource = { state = 716	type = oil			amount = 16	}
+			#国策 墨西哥
+			add_resource = { state = 476	type = oil			amount = 4	}
+			add_resource = { state = 477	type = oil			amount = 4	}
+			add_resource = { state = 479	type = oil			amount = 4	}
+			add_resource = { state = 480	type = oil			amount = 4	}
+			add_resource = { state = 480	type = oil			amount = 4	}
+			add_resource = { state = 480	type = steel		amount = 4	}
+			add_resource = { state = 482	type = steel		amount = 4	}
+			#国策 荷兰
+			add_resource = { state = 7		type = steel		amount = 16	}
+			add_resource = { state = 309	type = aluminium	amount = 36	}
+			add_resource = { state = 695	type = oil			amount = 24	}
+			#国策 新西兰
+			add_resource = { state = 284	type = oil			amount = 5	}
+			add_resource = { state = 284	type = steel		amount = 10	}
+			#国策 罗马尼亚
+			add_resource = { state = 46		type = oil			amount = 24	}
+			add_resource = { state = 46		type = oil			amount = 8	}
+			add_resource = { state = 59		type = oil			amount = 4	}
+			add_resource = { state = 84		type = steel		amount = 12	}
+			#国策 南非
+			add_resource = { state = 275	type = steel		amount = 16	}
+			#国策 苏联
+			add_resource = { state = 404	type = rubber		amount = 6	}
+			#国策 南斯拉夫
+			add_resource = { state = 45		type = oil			amount = 8	}
+			add_resource = { state = 105	type = tungsten		amount = 8	}
+			add_resource = { state = 108	type = steel		amount = 16	}
+			add_resource = { state = 109	type = chromium		amount = 8	}
+
+			#决议 荷兰
+			add_resource = { state = 334	type = oil			amount = 1	}
+			add_resource = { state = 335	type = oil			amount = 1	}
+			add_resource = { state = 672	type = oil			amount = 1	}
+			add_resource = { state = 695	type = oil			amount = 2	}
+			#决议 日本
+			add_resource = { state = 325	type = aluminium	amount = 12	}
+			add_resource = { state = 336	type = aluminium	amount = 12	}
+			add_resource = { state = 597	type = aluminium	amount = 12	}
+			add_resource = { state = 605	type = aluminium	amount = 12	}
+			add_resource = { state = 621	type = steel		amount = 8	}
+			add_resource = { state = 623	type = chromium		amount = 12	}
+			add_resource = { state = 625	type = steel		amount = 6	}
+			add_resource = { state = 627	type = steel		amount = 8	}
+			add_resource = { state = 655	type = oil			amount = 8	}
+			add_resource = { state = 671	type = aluminium	amount = 6	}
+			add_resource = { state = 725	type = tungsten		amount = 4	}
+			#决议 满洲
+			add_resource = { state = 328	type = aluminium	amount = 12	}
+			add_resource = { state = 716	type = steel		amount = 6	}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

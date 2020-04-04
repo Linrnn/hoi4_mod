@@ -1,0 +1,21 @@
+state =
+{
+	id = 500
+	name = "STATE_500"
+	manpower = 6665500
+	state_category = large_city
+	history =
+	{
+		owner = LO0
+		victory_points = {
+			10980 10
+		}
+		buildings =
+		{
+			10980 = { naval_base = 4 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 5172 8190 10980 12996 }
+}

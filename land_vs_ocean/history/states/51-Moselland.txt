@@ -1,0 +1,24 @@
+state =
+{
+	id = 51
+	name = "STATE_51"
+	manpower = 6144743
+	state_category = metropolis
+	resources =
+	{
+		steel=30 # was: 54
+	}
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			6469 10 
+		}
+		victory_points = {
+			587 5 
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 529 587 3444 3512 3547 6469 6570 9482 9522 }
+}

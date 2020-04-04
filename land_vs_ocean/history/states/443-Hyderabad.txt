@@ -1,0 +1,21 @@
+state =
+{
+	id = 443
+	name = "STATE_443"
+	manpower = 3887000
+	state_category = rural
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			3456 3 
+		}
+		buildings =
+		{
+			3456 = { naval_base = 2 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1147 1971 1980 3456 4003 4110 4382 7049 7084 10108 10735 }
+}

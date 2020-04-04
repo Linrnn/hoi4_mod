@@ -1,0 +1,28 @@
+state =
+{
+	id = 493
+	name = "STATE_493"
+	manpower = 2826781
+	state_category = town
+	resources =
+	{
+		oil=15 # was: 20
+	}
+	history =
+	{
+		owner = LO0
+		victory_points = {
+			2023 1 
+		}
+		victory_points = {
+			12790 5 
+		}
+		buildings =
+		{
+			12790 = { naval_base = 3 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1937 2023 2085 4969 8056 10494 10864 12703 12790 12845 12872 }
+}

@@ -1,0 +1,25 @@
+state =
+{
+	id = 684
+	name = "STATE_684"
+	manpower = 42357
+	state_category = small_island
+	history =
+	{
+		owner = LO0
+		victory_points = {
+			2489 5 
+		}
+		victory_points = {
+			13028 1 
+		}
+		buildings =
+		{
+			2489 = { naval_base = 3 }
+			13028 = { naval_base = 1 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 2489 13027 13028 13029 13030 13031 13032 13033 13034 13035 13036 }
+}

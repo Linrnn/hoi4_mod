@@ -1,0 +1,19 @@
+state =
+{
+	id = 619
+	name = "STATE_619"
+	manpower = 1430700
+	state_category = pastoral
+	resources =
+	{
+		aluminium=2 # was: 2
+		chromium=2 # was: 3
+	}
+	history =
+	{
+		owner = LO1
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1766 1970 2015 4828 5016 5087 7790 7949 8112 12119 }
+}

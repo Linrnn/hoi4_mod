@@ -1,0 +1,33 @@
+state =
+{
+	id = 458
+	name = "STATE_458"
+	manpower = 1982940
+	state_category = town
+	resources =
+	{
+		steel=6 # was: 8
+	}
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			11969 10 
+		}
+		victory_points = {
+			9994 1 
+		}
+		victory_points = {
+			11921 1 
+		}
+		buildings =
+		{
+			11969 = { naval_base = 4 }
+			9994 = { naval_base = 1 }
+			11921 = { naval_base = 1 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1037 1046 4061 4129 4163 7077 7162 7180 9994 10091 11921 11969 }
+}

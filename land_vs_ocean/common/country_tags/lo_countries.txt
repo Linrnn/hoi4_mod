@@ -1,0 +1,2 @@
+LO1	= "countries/United of Land.txt"
+LO0 = "countries/United of Ocean.txt"

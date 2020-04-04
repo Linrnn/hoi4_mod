@@ -1,0 +1,14 @@
+state =
+{
+	id = 616
+	name = "STATE_616"
+	manpower = 2077600
+	state_category = pastoral
+	history =
+	{
+		owner = LO1
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 3742 5031 5057 5100 7511 8055 8081 8127 10724 12327 12750 12776 }
+}

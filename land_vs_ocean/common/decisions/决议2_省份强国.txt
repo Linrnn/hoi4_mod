@@ -1,0 +1,93 @@
+加成集合 =
+{
+	省份强国 =
+	{
+		visible = { NOT = { has_global_flag = land_vs_ocean_swap_state } }
+		complete_effect =
+		{
+			set_global_flag = land_vs_ocean_swap_state
+			LO1 =
+			{
+				transfer_state = 609
+				transfer_state = 745
+				transfer_state = 527
+				transfer_state = 525
+				transfer_state = 537
+				transfer_state = 336
+			}
+			LO0 =
+			{
+				transfer_state = 101
+				transfer_state = 332
+				transfer_state = 331
+				transfer_state = 730
+				transfer_state = 100
+				transfer_state = 696
+				transfer_state = 690
+				transfer_state = 693
+				transfer_state = 689
+				transfer_state = 308
+				transfer_state = 694
+				transfer_state = 692
+				transfer_state = 691
+				transfer_state = 695
+				transfer_state = 311
+
+				transfer_state = 687
+				transfer_state = 309
+				transfer_state = 310
+				transfer_state = 299
+				transfer_state = 720
+				transfer_state = 704
+				transfer_state = 703
+				transfer_state = 705
+				transfer_state = 702
+				transfer_state = 178
+				transfer_state = 697
+				transfer_state = 698
+				transfer_state = 337
+				transfer_state = 119
+
+				transfer_state = 120
+				transfer_state = 136
+				transfer_state = 121
+				transfer_state = 133
+				transfer_state = 131
+				transfer_state = 130
+				transfer_state = 132
+				transfer_state = 122
+				transfer_state = 128
+				transfer_state = 129
+				transfer_state = 125
+				transfer_state = 126
+				transfer_state = 338
+				transfer_state = 123
+				transfer_state = 127
+
+				transfer_state = 708
+				transfer_state = 543
+				transfer_state = 706
+				transfer_state = 707
+				transfer_state = 709
+				transfer_state = 281
+				transfer_state = 710
+				transfer_state = 422
+				transfer_state = 712
+				transfer_state = 711
+				transfer_state = 733
+				transfer_state = 721
+				transfer_state = 713
+
+				transfer_state = 270
+				transfer_state = 635
+				transfer_state = 636
+				transfer_state = 734
+				transfer_state = 643
+				transfer_state = 725
+				transfer_state = 639
+				transfer_state = 641
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

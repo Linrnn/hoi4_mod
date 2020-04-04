@@ -1,0 +1,792 @@
+﻿capital = 361
+OOB = "LO0_1950"
+set_political_power = 2000
+navy_experience = 500
+set_stability = 1
+set_war_support = 1
+set_research_slots = 0
+
+set_technology =
+{
+	early_ship_hull_light=1
+	basic_ship_hull_light=1
+	improved_ship_hull_light=1
+	advanced_ship_hull_light=1
+	smoke_generator=1
+	early_ship_hull_cruiser=1
+	basic_ship_hull_cruiser=1
+	improved_ship_hull_cruiser=1
+	advanced_ship_hull_cruiser=1
+	basic_cruiser_armor_scheme=1
+	improved_cruiser_armor_scheme=1
+	advanced_cruiser_armor_scheme=1
+	early_ship_hull_heavy=1
+	basic_ship_hull_heavy=1
+	ship_hull_super_heavy=1
+	improved_ship_hull_heavy=1
+	advanced_ship_hull_heavy=1
+	basic_heavy_armor_scheme=1
+	improved_heavy_armor_scheme=1
+	basic_torpedo=1
+	magnetic_detonator=1
+	homing_torpedo=1
+	electric_torpedo=1
+	improved_ship_torpedo_launcher=1
+	advanced_ship_torpedo_launcher=1
+	modern_ship_torpedo_launcher=1
+	basic_battery=1
+	basic_light_battery=1
+	improved_light_battery=1
+	advanced_light_battery=1
+	basic_light_shell=1
+	improved_light_shell=1
+	basic_medium_battery=1
+	improved_medium_battery=1
+	advanced_medium_battery=1
+	basic_medium_shell=1
+	improved_medium_shell=1
+	basic_heavy_battery=1
+	improved_heavy_battery=1
+	advanced_heavy_battery=1
+	basic_heavy_shell=1
+	improved_heavy_shell=1
+	basic_secondary_battery=1
+	improved_secondary_battery=1
+	dp_secondary_battery=1
+	damage_control_1=1
+	damage_control_2=1
+	damage_control_3=1
+	fire_control_methods_1=1
+	fire_control_methods_2=1
+	fire_control_methods_3=1
+	mtg_transport=1
+	mtg_landing_craft=1
+	mtg_tank_landing_craft=1
+	electronic_mechanical_engineering=1
+	radio=1
+	radio_detection=1
+	decimetric_radar=1
+	improved_decimetric_radar=1
+	centimetric_radar=1
+	improved_centimetric_radar=1
+	advanced_centimetric_radar=1
+	mechanical_computing=1
+	computing_machine=1
+	improved_computing_machine=1
+	advanced_computing_machine=1
+	basic_encryption=1
+	improved_encryption=1
+	advanced_encryption=1
+	basic_decryption=1
+	improved_decryption=1
+	advanced_decryption=1
+	basic_fire_control_system=1
+	improved_fire_control_system=1
+	advanced_fire_control_system=1
+	basic_machine_tools=1
+	improved_machine_tools=1
+	advanced_machine_tools=1
+	assembly_line_production=1
+	flexible_line=1
+	streamlined_line=1
+	improved_equipment_conversion=1
+	advanced_equipment_conversion=1
+	concentrated_industry=1
+	concentrated_industry2=1
+	concentrated_industry3=1
+	concentrated_industry4=1
+	concentrated_industry5=1
+	dispersed_industry=1
+	dispersed_industry2=1
+	dispersed_industry3=1
+	dispersed_industry4=1
+	dispersed_industry5=1
+	fuel_refining=1
+	fuel_refining2=1
+	fuel_refining3=1
+	fuel_refining4=1
+	fuel_refining5=1
+	construction1=1
+	excavation1=1
+	construction2=1
+	excavation2=1
+	construction3=1
+	excavation3=1
+	construction4=1
+	excavation4=1
+	construction5=1
+	excavation5=1
+	infantry_weapons=1
+	infantry_weapons1=1
+	infantry_weapons2=1
+	improved_infantry_weapons=1
+	improved_infantry_weapons_2=1
+	infantry_at=1
+	infantry_at2=1
+	advanced_infantry_weapons=1
+	advanced_infantry_weapons2=1
+	night_vision=1
+	night_vision2=1
+	support_weapons=1
+	support_weapons2=1
+	support_weapons3=1
+	support_weapons4=1
+	motorised_infantry=1
+	mobile_warfare=1
+	delay=1
+	elastic_defence=1
+	mobile_infantry=1
+	mass_motorization=1
+	mechanised_offensive=1
+	armored_spearhead=1
+	schwerpunk=1
+	blitzkrieg=1
+	kampfgruppe=1
+	firebrigades=1
+	backhand_blow=1
+	modern_blitzkrieg=1
+	volkssturm=1
+	nd_conscription=1
+	werwolf_guerillas=1
+	superior_firepower=1
+	sup_delay=1
+	mobile_defence=1
+	intergrated_support=1
+	regimental_combat_teams=1
+	dispersed_support=1
+	overwhelming_firepower=1
+	sup_mechanized_offensive=1
+	concentrated_fire_plans=1
+	combined_arms=1
+	tactical_control=1
+	air_land_battle=1
+	centralized_fire_control=1
+	forward_observers=1
+	advanced_firebases=1
+	shock_and_awe=1
+	trench_warfare=1
+	grand_battle_plan=1
+	prepared_defense=1
+	grand_assault=1
+	grand_mechanized_offensive=1
+	assault_concentration=1
+	branch_interoperation=1
+	assault_breakthrough=1
+	central_planning=1
+	c3i_theory=1
+	infantry_offensive=1
+	armored_operations=1
+	infiltration_assault=1
+	night_assault_tactics=1
+	attritional_containment=1
+	infiltration_in_depth=1
+	mass_assault=1
+	pocket_defence=1
+	defence_in_depth=1
+	large_front_operations=1
+	deep_operations=1
+	operational_concentration=1
+	vast_offensives=1
+	breakthrough_priority=1
+	mechanized_wave=1
+	continuous_offensive=1
+	peoples_army=1
+	human_infantry_offensive=1
+	large_front_offensive=1
+	human_wave_offensive=1
+	guerilla_warfare=1
+	fleet_in_being=1
+	battlefleet_concentration=1
+	subsidiary_carrier_role=1
+	hunter_killer_groups=1
+	floating_fortress=1
+	floating_airfield=1
+	grand_battlefleet=1
+	convoy_sailing=1
+	convoy_escorts=1
+	escort_carriers=1
+	integrated_convoy_defence=1
+	submarine_operations=1
+	undersea_blockade=1
+	convoy_interdiction=1
+	submarine_offensive=1
+	trade_interdiction=1
+	convoy_interdiction_ti=1
+	unrestricted_submarine_warfare=1
+	wolfpacks=1
+	advanced_submarine_warfare=1
+	combined_operations_raiding=1
+	raider_patrols=1
+	capital_ship_raiders=1
+	battlefleet_concentration_ti=1
+	floating_fortress_ti=1
+	floating_airfield_ti=1
+	carrier_operations=1
+	convoy_sailing_ti=1
+	subsidiary_carrier_role_ti=1
+	naval_air_operations=1
+	base_strike=1
+	carrier_primacy=1
+	carrier_task_forces=1
+	floating_airfield_bs=1
+	massed_strikes=1
+	floating_fortress_bs=1
+	carrier_battlegroups=1
+	submarine_operations_bs=1
+	undersea_blockade_bs=1
+	convoy_interdiction_bs=1
+	submarine_offensive_bs=1
+	convoy_escorts_bs=1
+	escort_patrols=1
+	convoy_sailing_bs=1
+	integrated_convoy_defence_bs=1
+	tech_support=1
+	tech_engineers=1
+	tech_engineers2=1
+	tech_engineers3=1
+	tech_engineers4=1
+	tech_recon=1
+	tech_recon2=1
+	tech_recon3=1
+	tech_recon4=1
+	tech_field_hospital=1
+	tech_field_hospital2=1
+	tech_field_hospital3=1
+	tech_field_hospital4=1
+	tech_logistics_company=1
+	tech_logistics_company2=1
+	tech_logistics_company3=1
+	tech_logistics_company4=1
+	tech_signal_company=1
+	tech_signal_company2=1
+	tech_signal_company3=1
+	tech_signal_company4=1
+
+	amphibious_tank=1
+	amphibious_tank_2=1
+	modern_art=1
+	tech_special_forces=1
+	advanced_special_forces=1
+	improved_special_forces=1
+	extreme_environment_training=1
+	survival_training=1
+	elite_forces=1
+	mechanised_infantry=1
+	amphibious_mechanized_infantry=1
+	amphibious_mechanized_infantry_2=1
+	mechanised_infantry2=1
+	mechanised_infantry3=1
+}
+add_ideas = 
+{
+	extensive_conscription
+	free_trade
+	tot_economic_mobilisation
+	for_lo
+}
+set_politics =
+{
+	ruling_party = democratic
+	last_election = "1930.1.1"
+	election_frequency = 120
+	elections_allowed = no
+}
+set_popularities = 
+{
+	communism = 0
+	democratic = 100
+	fascism = 0	
+	neutrality = 0
+}
+
+create_country_leader =
+{
+	name = "富兰克林·德拉诺·罗斯福" #"Franklin Delano Roosevelt"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	expire = "2000.1.1"
+	ideology = liberalism
+}
+create_country_leader =
+{
+	name = "威廉·达德利·佩利" #"William Dudley Pelley"
+	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	picture = "Portrait_USA_William_Dudley_Pelley.dds"
+	expire = "2000.1.1"
+	ideology = fascism_ideology
+}
+create_country_leader =
+{
+	name = "厄尔·拉塞尔·白劳德" #"Earl Browder"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "portrait_USA_earl_browder.dds"
+	expire = "2000.1.1"
+	ideology = marxism
+}
+
+create_field_marshal =
+{
+	name = "德怀特·戴维·艾森豪威尔" #"Dwight D. Eisenhower"
+	picture = "Portrait_USA_Dwight_D_Eisenhower.dds"
+	traits = { logistics_wizard organizer offensive_doctrine trait_cautious armor_officer politically_connected }
+	skill = 5
+	id = 602
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_field_marshal =
+{
+	name = "道格拉斯·麦克阿瑟" #"Douglas MacArthur"
+	id = 57
+	picture = "Portrait_USA_Douglas_MacArthur.dds"
+	traits = {  offensive_doctrine brilliant_strategist career_officer media_personality politically_connected }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_corps_commander =
+{
+	name = "小乔治·史密斯·巴顿" #"George S. Patton"
+	picture = "Portrait_USA_George_S_Patton.dds"
+	traits = {  trickster armor_officer panzer_leader war_hero trait_reckless }
+	skill = 5
+	attack_skill = 7 
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
+create_corps_commander =
+{
+	name = "奥马尔·纳尔逊·布拉德利" #"Omar Bradley"
+	picture = "Portrait_USA_Omar_Bradley.dds"
+	traits = {  trait_engineer trait_cautious brilliant_strategist harsh_leader }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_corps_commander =
+{
+	name = "乔佛里·凯耶斯" #"Geoffrey Keyes"
+	picture = "Portrait_USA_Geoffrey_Keyes.dds"
+	traits = { armor_officer career_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander =
+{
+	name = "卢西恩·金·特拉斯科特" #"Lucian Truscott"
+	picture = "Portrait_USA_Lucian_Truscott.dds"
+	traits = { trait_engineer commando cavalry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander =
+{
+	name = "马克·韦恩·克拉克" #"Mark Clark"
+	picture = "Portrait_USA_Mark_W_Clark.dds"
+	traits = { infantry_officer trait_reckless }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander =
+{
+	name = "沃尔特·克鲁格" #"Walter Krueger"
+	picture = "Portrait_USA_Walter_Krueger.dds"
+	traits = { armor_officer career_officer brilliant_strategist }
+	skill = 3
+
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander =
+{
+	name = "劳埃德·弗雷登道尔" #"Lloyd Fredendall"
+	picture = "Portrait_USA_Lloyd_Fredendall.dds"
+	traits = { old_guard infantry_officer inflexible_strategist }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander =
+{
+	name = "莱斯利·詹姆斯·麦克奈尔" #"Leslie McNair"
+	picture = "Portrait_USA_Lesley_McNair.dds"
+	traits = { old_guard career_officer armor_officer }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_corps_commander =
+{
+	name = "乔纳森·梅休·温莱特" #"Jonathan Wainwright"
+	picture = "Portrait_USA_Jonathan_Wainwright.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander =
+{
+	name = "拉塞尔·彼得·哈特尔" #"Russell Hartle"
+	picture = "Portrait_USA_Russell_P_Hartle.dds"
+	traits = { infantry_officer }
+	skill = 1
+	rank = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander =
+{
+	name = "伦纳德·汤姆逊·杰罗" #"Leonard Gerow"
+	picture = "Portrait_USA_Leonard_T_Gerow.dds"
+	traits = { infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander =
+{
+	name = "爱德华·布鲁克斯" #"Edward Brooks"
+	picture = "Portrait_USA_Edward_Brooks.dds"
+	traits = { armor_officer trait_reckless }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander =
+{
+	name = "克拉伦斯·拉尔夫·休伯纳" #"Clarence Huebner"
+	picture = "Portrait_USA_Clarence_Huebner.dds"
+	traits = { old_guard harsh_leader }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander =
+{
+	name = "亚历山大·帕奇" #"Alexander Patch"
+	picture = "Portrait_USA_Alexander_Patch.dds"
+	traits = {  commando infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander =
+{
+	name = "威廉·胡得·辛普森" #"William Simpson"
+	picture = "Portrait_USA_William_Hood_Simpson.dds"
+	traits = { infantry_officer }
+	skill = 3
+	
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander =
+{
+	name = "约瑟夫·劳顿·科林斯" #"J. Lawton Collins"
+	picture = "Portrait_USA_Lawton_Collins.dds"
+	traits = {  trickster career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander =
+{
+	name = "考特尼·希克斯·霍奇斯" #"Courtney Hodges"
+	picture = "Portrait_USA_Cortney_Hodges.dds"
+	traits = {  panzer_leader career_officer infantry_officer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
+create_corps_commander =
+{
+	name = "约瑟夫·华伦·史迪威" #"Joseph Stilwell"
+	picture = "Portrait_USA_Joseph_Stilwell.dds"
+	traits = { politically_connected infantry_officer career_officer harsh_leader }
+	skill = 1 
+	id = 601
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander =
+{
+	name = "奥斯卡·伍尔弗顿·格里斯沃尔德" #"Oscar Griswold"
+	picture = "Portrait_USA_Oscar_Griswold.dds"
+	traits = { infantry_officer  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander =
+{
+	name = "莫里斯·罗斯" #"Maurice Rose"
+	picture = "Portrait_USA_Maurice_Rose.dds"
+	traits = { armor_officer trait_reckless brilliant_strategist  }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_navy_leader =
+{
+	name = "欧内斯特·约瑟夫·金" #"Ernest King"
+	picture = "Portrait_USA_Earnest_King.dds"
+	traits = { navy_career_officer aviation_enthusiast caustic_personality blockade_runner superior_tactician }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 6
+}
+create_navy_leader =
+{
+	name = "切斯特·威廉·尼米兹" #"Chester W. Nimitz"
+	picture = "Portrait_USA_Chester_W_Nimitz.dds"
+	traits = { gentlemanly blue_water_expert naval_lineage superior_tactician spotter }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 5
+	coordination_skill = 5
+}
+create_navy_leader =
+{
+	name = "小威廉·弗雷德里克·哈尔西" #"William Halsey, Jr."
+	picture = "Portrait_USA_William_Halsey_Jr.dds"
+	traits = { bold aviation_enthusiast superior_tactician spotter }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+create_navy_leader =
+{
+	name = "法兰克·杰克·弗莱彻" #"Frank Jack Fletcher"
+	picture = "Portrait_USA_Frank_Jack_Fletcher.dds"
+	traits = { gunnery_expert superior_tactician spotter }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+create_navy_leader =
+{
+	name = "雷蒙德·艾姆斯·斯普鲁恩斯" #"Raymond A. Spruance"
+	picture = "Portrait_USA_Raymond_A_Spruance.dds"
+	traits = { navy_career_officer gentlemanly superior_tactician }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+create_navy_leader =
+{
+	name = "哈罗德·雷恩斯福德·斯塔克" #"Harold Rainsford Stark"
+	picture = "Portrait_USA_Harold_Rainsford_Stark.dds"
+	traits = { cuts_corners blockade_runner spotter }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+create_navy_leader =
+{
+	name = "阿利·艾伯特·伯克" #"Arleigh Burke"
+	picture = "Portrait_USA_Arleigh_Burke.dds"
+	traits = { bold fleet_protector old_guard_navy superior_tactician }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
+}
+create_navy_leader =
+{
+	name = "小查尔斯·梅纳德·库克" #"Charles M. Cooke, Jr."
+	picture = "Portrait_USA_Charles_M_Cooke.dds"
+	traits = { career_officer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+
+create_equipment_variant=
+{
+	name="自行火炮"
+	type=modern_tank_artillery_equipment_1
+	upgrades=
+	{
+		tank_reliability_upgrade=5
+		tank_engine_upgrade=5
+		tank_armor_upgrade=5
+		tank_art_upgrade=5
+	}
+}
+create_equipment_variant=
+{
+	name="两栖坦克"
+	type=amphibious_tank_equipment_2
+	upgrades=
+	{
+		tank_reliability_upgrade=5
+		tank_engine_upgrade=5
+		tank_armor_upgrade=5
+		tank_gun_upgrade=5
+	}
+}
+
+create_equipment_variant=
+{
+	name="战列舰"
+	type=ship_hull_super_heavy_1
+	name_group=USA_BB_HISTORICAL
+	role_icon_index=1
+	modules=
+	{
+		fixed_ship_engine_slot=heavy_ship_engine_4
+		fixed_ship_armor_slot=ship_armor_shbb
+		front_1_custom_slot=ship_super_heavy_battery_1
+		front_2_custom_slot=ship_super_heavy_battery_1
+		mid_1_custom_slot=dp_ship_secondaries
+		mid_2_custom_slot=dp_ship_secondaries
+		mid_3_custom_slot=dp_ship_secondaries
+		rear_1_custom_slot=ship_super_heavy_battery_1
+		rear_2_custom_slot=ship_super_heavy_battery_1
+		fixed_ship_battery_slot=ship_super_heavy_battery_1
+		fixed_ship_fire_control_system_slot=ship_fire_control_system_3
+		fixed_ship_radar_slot=ship_radar_4
+		fixed_ship_secondaries_slot=dp_ship_secondaries
+	}
+}
+create_equipment_variant=
+{
+	name="战列巡洋舰"
+	type=ship_hull_heavy_4
+	name_group=USA_BC_HISTORICAL
+	role_icon_index=1
+	modules=
+	{
+		fixed_ship_engine_slot=heavy_ship_engine_4
+		fixed_ship_armor_slot=ship_armor_bc_3
+		front_1_custom_slot=ship_heavy_battery_4
+		mid_1_custom_slot=ship_heavy_battery_4
+		mid_2_custom_slot=ship_heavy_battery_4
+		mid_3_custom_slot=ship_heavy_battery_4
+		rear_1_custom_slot=ship_heavy_battery_4
+		fixed_ship_battery_slot=ship_heavy_battery_4
+		fixed_ship_fire_control_system_slot=ship_fire_control_system_3
+		fixed_ship_radar_slot=ship_radar_4
+		fixed_ship_secondaries_slot=dp_ship_secondaries
+	}
+}
+create_equipment_variant=
+{
+	name="轻巡洋舰"
+	type=ship_hull_cruiser_4
+	name_group=USA_CL_HISTORICAL
+	role_icon_index=1
+	modules=
+	{
+		fixed_ship_engine_slot=cruiser_ship_engine_4
+		fixed_ship_battery_slot=ship_light_medium_battery_4
+		fixed_ship_fire_control_system_slot=ship_fire_control_system_3
+		fixed_ship_radar_slot=ship_radar_4
+		fixed_ship_secondaries_slot=dp_ship_secondaries
+		fixed_ship_armor_slot=ship_armor_cruiser_4
+		front_1_custom_slot=ship_light_medium_battery_4
+		mid_1_custom_slot=ship_light_medium_battery_4
+		mid_2_custom_slot=ship_light_medium_battery_4
+		rear_1_custom_slot=ship_light_medium_battery_4
+		rear_2_custom_slot=ship_light_medium_battery_4
+	}
+}
+create_equipment_variant=
+{
+	name="重巡洋舰"
+	type=ship_hull_cruiser_4
+	name_group=USA_CA_HISTORICAL
+	role_icon_index=1
+	modules=
+	{
+		fixed_ship_engine_slot=cruiser_ship_engine_4
+		fixed_ship_battery_slot=ship_medium_battery_4
+		fixed_ship_fire_control_system_slot=ship_fire_control_system_3
+		fixed_ship_radar_slot=ship_radar_4
+		fixed_ship_secondaries_slot=dp_ship_secondaries
+		fixed_ship_armor_slot=ship_armor_cruiser_4
+		front_1_custom_slot=ship_medium_battery_4
+		mid_1_custom_slot=ship_medium_battery_4
+		mid_2_custom_slot=ship_medium_battery_4
+		rear_1_custom_slot=ship_medium_battery_4
+		rear_2_custom_slot=ship_medium_battery_4
+	}
+}
+create_equipment_variant=
+{
+	name="驱逐舰"
+	type=ship_hull_light_4
+	name_group=USA_DD_HISTORICAL
+	role_icon_index=1
+	modules=
+	{
+		fixed_ship_engine_slot=light_ship_engine_4
+		fixed_ship_battery_slot=ship_light_battery_4
+		fixed_ship_fire_control_system_slot=ship_fire_control_system_3
+		fixed_ship_radar_slot=ship_radar_4
+		fixed_ship_torpedo_slot=ship_torpedo_4
+		front_1_custom_slot=ship_light_battery_4
+		mid_1_custom_slot=ship_light_battery_4
+		mid_2_custom_slot=ship_light_battery_4
+		rear_1_custom_slot=ship_light_battery_4
+	}
+}

@@ -1,0 +1,20 @@
+state =
+{
+	id = 64
+	name = "STATE_64"
+	manpower = 7265029
+	state_category = megalopolis
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			6521 50 
+		}
+		victory_points = {
+			3522 5 
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 375 478 3367 3499 3522 6487 6521 9428 9456 9496 9560 11219 11359 11415 11444 11505 }
+}

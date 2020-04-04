@@ -1,0 +1,14 @@
+state =
+{
+	id = 505
+	name = "STATE_505"
+	manpower = 1662200
+	state_category = rural
+	history =
+	{
+		owner = LO0
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 2168 5115 5148 5151 5208 8140 12959 12987 }
+}

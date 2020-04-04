@@ -1,0 +1,24 @@
+state =
+{
+	id = 52
+	name = "STATE_52"
+	manpower = 2679413
+	state_category = city
+	resources =
+	{
+		aluminium=18 # was: 30
+	}
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			692 20
+		}
+		victory_points = {
+			708 3 #10
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 692 707 708 3688 3705 6540 6693 9652 9666 11620 11638 11653 }
+}

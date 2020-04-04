@@ -1,0 +1,18 @@
+state =
+{
+	id = 432
+	name = "STATE_432"
+	manpower = 8977100
+	state_category = town
+	resources =
+	{
+		oil=5.000
+	}
+	history =
+	{
+		owner = LO1
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 997 1075 1497 1525 1553 1581 7455 7634 10090 10349 10514 12366 12395 }
+}

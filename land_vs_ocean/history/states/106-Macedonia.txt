@@ -1,0 +1,22 @@
+state =
+{
+	id = 106
+	name = "STATE_106"
+	manpower = 1374200
+	state_category = rural
+	resources =
+	{
+		chromium=70.000
+		aluminium=16.000
+	}
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			3882 5
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 833 867 907 974 3833 3865 3882 6886 11856 }
+}

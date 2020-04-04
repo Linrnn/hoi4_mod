@@ -1,0 +1,14 @@
+state =
+{
+	id = 417
+	name = "STATE_417"
+	manpower = 796396
+	state_category = rural
+	history =
+	{
+		owner = LO1
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1982 2065 8040 8125 10922 }
+}

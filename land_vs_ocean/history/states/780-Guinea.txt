@@ -1,0 +1,21 @@
+state =
+{
+	id = 780
+	name = "STATE_780"
+	manpower = 195041
+	state_category = pastoral
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			1909 1 
+		}
+		buildings =
+		{
+			1909 = { naval_base = 1 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1909 4957 5039 8008 12802 12858 }
+}

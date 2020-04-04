@@ -1,0 +1,29 @@
+state =
+{
+	id = 183
+	name = "STATE_183"
+	manpower = 347959
+	state_category = rural
+	resources =
+	{
+		chromium=3 # was: 4
+	}
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			11984 5
+		}
+		victory_points = {
+			7193 3
+		}
+		buildings =
+		{
+			11984 = { naval_base = 3 }
+			7193 = { naval_base = 2 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 7193 11984 }
+}

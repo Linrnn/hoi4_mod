@@ -1,0 +1,18 @@
+state =
+{
+	id = 657
+	name = "STATE_657"
+	manpower = 308380
+	state_category = pastoral
+	resources =
+	{
+		steel=18 # was: 24
+	}
+	history =
+	{
+		owner = LO1
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 675 1802 4246 4701 4725 4779 4805 4829 7616 7672 7763 7801 10655 10722 12192 12261 12263 12654 12678 }
+}

@@ -1,0 +1,21 @@
+state =
+{
+	id = 27
+	name = "STATE_27"
+	manpower = 1370800
+	state_category = city
+	resources =
+	{
+		aluminium=11 # was: 18
+	}
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			3652 5 
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 648 667 680 817 3506 3652 3669 3681 9609 9625 9644 11628 }
+}

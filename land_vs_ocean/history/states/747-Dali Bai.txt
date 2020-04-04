@@ -1,0 +1,17 @@
+state =
+{
+	id = 747
+	name = "STATE_747"
+	manpower = 1000000
+	state_category = pastoral
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			7965 3 
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 4559 4937 5009 7965 7976 8126 10413 10863 12789 12898 }
+}

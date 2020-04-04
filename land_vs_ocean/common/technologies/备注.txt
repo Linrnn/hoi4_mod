@@ -1,0 +1,40 @@
+#electronic_mechanical_engineering.txt
+#
+#删除所有
+#enable_building =
+#{
+#	building = radar_station
+#	level = 
+#}
+#
+#在atomic_research下添加
+#		enable_building = 
+#		{
+#			building = air_base
+#			level = 10
+#		}
+#		enable_building = 
+#		{
+#			building = anti_air_building
+#			level = 5
+#		}
+#		enable_building = 
+#		{
+#			building = radar_station
+#			level = 6
+#		}
+#		enable_building = 
+#		{
+#			building = naval_base
+#			level = 10
+#		}
+#		enable_building = 
+#		{
+#			building = bunker
+#			level = 10
+#		}
+#		enable_building = 
+#		{
+#			building = coastal_bunker
+#			level = 10
+#		}

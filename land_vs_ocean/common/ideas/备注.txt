@@ -1,0 +1,1 @@
+#将 备注.txt 里所有的 original_tag = PAL 换成 original_tag = PAL original_tag = LO1 original_tag = LO0

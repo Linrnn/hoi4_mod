@@ -1,0 +1,14 @@
+state =
+{
+	id = 713
+	name = "STATE_713"
+	manpower = 96
+	state_category = tiny_island
+	history =
+	{
+		owner = LO1
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 2165 }
+}

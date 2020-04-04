@@ -1,0 +1,25 @@
+state =
+{
+	id = 88
+	name = "STATE_88"
+	manpower = 3692800
+	state_category = large_city
+	resources =
+	{
+		steel=5.000
+		oil=3.000
+	}
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			9427 20 
+		}
+		victory_points = {
+			442 3 
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 417 442 466 3410 3434 6499 6522 9412 9427 9494 11398 11413 11507 13205 }
+}

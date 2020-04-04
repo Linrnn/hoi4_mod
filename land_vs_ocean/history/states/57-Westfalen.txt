@@ -1,0 +1,17 @@
+state =
+{
+	id = 57
+	name = "STATE_57"
+	manpower = 5109333
+	state_category = large_city
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			495 5 
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 405 495 3355 3398 6535 6622 9443 9509 11346 11431 }
+}

@@ -1,0 +1,317 @@
+﻿add_namespace = lo_events
+country_event =
+{
+	id = lo_events.1
+	title = "点数强国"
+	is_triggered_only = yes
+	option =
+	{
+		name = "增加政治点数"
+		add_political_power = 2000
+		ai_chance = { factor = 0 }	
+	}
+	option =
+	{
+		name = "减少政治点数"
+		add_political_power = -2000
+		ai_chance = { factor = 0 }	
+	}
+	option =
+	{
+		name = "退出"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event =
+{
+	id = lo_events.2
+	title = "团结强国"
+	is_triggered_only = yes
+	option =
+	{
+		name = "加稳定度"
+		add_stability = 1
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "加战争支持度"
+		add_war_support = 1
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "加指挥点数"
+		add_command_power = 1
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "全都加上"
+		add_stability = 1			#稳定度
+		add_war_support = 1			#战争支持度
+		add_command_power = 100		#指挥点数
+		ai_chance = { factor = 100 }
+	}
+	option =
+	{
+		name = "退出"
+		ai_chance = { factor = 0 }
+	}
+}
+country_event =
+{
+	id = lo_events.3
+	title = "经验强国"
+	is_triggered_only = yes
+	option =
+	{
+		name = "加陆军经验"	
+　　	army_experience = 500
+		army_experience = 500
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "加海军经验"
+		navy_experience = 500
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "加空军经验"
+		air_experience = 500
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "全都加上"
+		army_experience = 500
+　　	army_experience = 500	#陆军经验
+		navy_experience = 500	#海军经验
+		air_experience = 500	#空军经验
+		ai_chance = { factor = 0 }		
+	}
+	option =
+	{
+		name = "退出"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event =
+{
+	id = lo_events.4
+	title = "法案强国"
+	is_triggered_only = yes
+	option =
+	{
+		name = "修改人力法案"
+		country_event =	lo_events.11
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "修改贸易法案"
+		country_event =	lo_events.12
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "修改经济法案"
+		country_event =	lo_events.13
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "退出"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event =
+{
+	id = lo_events.5
+	title = "科技强国"
+	is_triggered_only = yes
+	option =
+	{
+		name = "进步"
+		add_research_slot = 1		#科技槽
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "倒车"
+		add_research_slot = -1		#科技槽
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "退出"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event =
+{
+	id = lo_events.6
+	title = "跳边强国"
+	is_triggered_only = yes
+	option =
+	{
+		name = "投身旧大陆"
+		LO1 = { change_tag_from = ROOT }
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "投身新大陆"
+		LO0 = { change_tag_from = ROOT }
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "退出"
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event =
+{
+	id = lo_events.11
+	title = "修改人力法案"
+	is_triggered_only = yes
+	option =
+	{
+		name = "非军事化国家"
+		add_ideas = disarmed_nation
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "志愿兵役制"
+		add_ideas = volunteer_only
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "有限征兵"
+		add_ideas = limited_conscription
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "广泛征兵"
+		add_ideas = extensive_conscription
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "按需服兵役"
+		add_ideas = service_by_requirement
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "所有成年人服兵役"
+		add_ideas = all_adults_serve
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "榨干他们！"
+		add_ideas = scraping_the_barrel
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "退出"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event =
+{
+	id = lo_events.12
+	title = "修改贸易法案"
+	is_triggered_only = yes
+	option =
+	{
+		name = "自由贸易"
+		add_ideas = free_trade
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "专注出口"
+		add_ideas = export_focus
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "有限出口"
+		add_ideas = limited_exports
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "封闭经济"
+		add_ideas = closed_economy
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "退出"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event =
+{
+	id = lo_events.13
+	title = "修改经济法案"
+	is_triggered_only = yes
+	option =
+	{
+		name = "不受干扰的孤立"
+		add_ideas = undisturbed_isolation
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "孤立主义"
+		add_ideas = isolation
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "民用经济"
+		add_ideas = civilian_economy
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "前期动员"
+		add_ideas = low_economic_mobilisation
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "部分动员"
+		add_ideas = partial_economic_mobilisation
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "战时经济"
+		add_ideas = war_economy
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "总动员"
+		add_ideas = tot_economic_mobilisation
+		ai_chance = { factor = 0 }
+	}
+	option =
+	{
+		name = "退出"
+		ai_chance = { factor = 100 }
+	}
+}

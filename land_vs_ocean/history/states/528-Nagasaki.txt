@@ -1,0 +1,33 @@
+state =
+{
+	id = 528
+	name = "STATE_528"
+	manpower = 9069000
+	state_category = large_city
+	resources =
+	{
+		chromium=52 # was: 88
+	}
+	history =
+	{
+		owner = LO0
+		victory_points = {
+			1025 10 
+		}
+		victory_points = {
+			4102 15 
+		}
+		victory_points = {
+			9950 30
+		}
+		buildings =
+		{
+			1025 = { naval_base = 4 }
+			4102 = { naval_base = 5 }
+			9950 = { naval_base = 8 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1020 1025 1158 1183 4027 4102 4164 4198 7110 7178 9950 10011 10020 10092 11925 11949 12006 12032 }
+}

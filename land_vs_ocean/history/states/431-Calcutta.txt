@@ -1,0 +1,26 @@
+state =
+{
+	id = 431
+	name = "STATE_431"
+	manpower = 18778100
+	state_category = city
+	resources =
+	{
+		steel=13.000
+		tungsten=11.000
+	}
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			4245 5 
+		}
+		buildings =
+		{
+			4245 = { naval_base = 3 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1159 1609 1656 4062 4204 4245 4435 4644 7220 7475 7537 7565 7593 10077 12050 12338 }
+}

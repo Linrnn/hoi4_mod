@@ -1,0 +1,25 @@
+state =
+{
+	id = 531
+	name = "STATE_531"
+	manpower = 11015000
+	state_category = metropolis
+	resources =
+	{
+		aluminium=3 # was: 6
+	}
+	history =
+	{
+		owner = LO0
+		victory_points = {
+			7072 40
+		}
+		buildings =
+		{
+			7072 = { naval_base = 9 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 1051 1067 1133 1136 4054 4142 7072 7113 9985 11960 12031 }
+}

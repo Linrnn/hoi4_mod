@@ -1,0 +1,17 @@
+state =
+{
+	id = 16
+	name = "STATE_16"
+	manpower = 7038500
+	state_category = metropolis
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			11506 50 
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 6547 6949 9507 9523 9534 9725 11491 11506 11518 }
+}

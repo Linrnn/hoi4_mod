@@ -1,0 +1,21 @@
+state =
+{
+	id = 156
+	name = "STATE_156"
+	manpower = 2966315
+	state_category = city
+	history =
+	{
+		owner = LO1
+		victory_points = {
+			11837 15 
+		}
+		buildings =
+		{
+			11837 = { naval_base = 5 }
+		}
+		add_core_of = LO1
+		add_core_of = LO0
+	}
+	provinces = { 3901 6979 9784 9856 9990 10027 11837 11998 12066 12098 }
+}
