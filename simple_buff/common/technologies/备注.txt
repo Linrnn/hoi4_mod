@@ -1,12 +1,47 @@
+#æ–‡æœ¬æ³¨é‡Š
 #electronic_mechanical_engineering.txt
+
+#experimental_rockets
 #{
-#	jet_engines
-#	{	
-#		ÔÚ start_year = 1944 ÉÏ Ìí¼Ó
-#		path =
-#		{
-#			leads_to_tech = experimental_rockets
-#			research_cost_coeff = 1
-#		}
+#	#enable_building =
+#	#{
+#	#	building = rocket_site
+#	#	level = 2
+#	#}
+#}
+
+#rocket_engines
+#{
+#	enable_equipments =
+#	{
+#		rocket_interceptor_equipment_1
+#		#guided_missile_equipment_1
 #	}
+#}
+
+#improved_rocket_engines
+#{
+#	enable_equipments =
+#	{
+#		rocket_interceptor_equipment_2
+#		#guided_missile_equipment_2
+#	}
+#}
+
+#advanced_rocket_engines
+#{
+#	enable_equipments =
+#	{
+#		rocket_interceptor_equipment_3
+#		#guided_missile_equipment_3
+#	}
+#}
+
+#nuclear_reactor
+#{
+#	#enable_building =
+#	#{
+#	#	building = nuclear_reactor
+#	#	level = 1
+#	#}
 #}
