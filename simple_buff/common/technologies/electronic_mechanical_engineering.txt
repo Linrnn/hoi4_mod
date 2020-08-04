@@ -897,10 +897,10 @@ technologies = {
 	
 	experimental_rockets = {
 
-		#enable_building = {
-		#	building = rocket_site
-		#	level = 2
-		#}
+		enable_building = {
+			building = rocket_site
+			level = 0
+		}
 		
 		path = {
 			leads_to_tech = rocket_engines 
@@ -929,10 +929,10 @@ technologies = {
 		show_equipment_icon = yes
 
 		# can build v1s/rocket planes
-		enable_equipments = {
-			rocket_interceptor_equipment_1
-			#guided_missile_equipment_1
-		}
+		#enable_equipments = {
+		#	rocket_interceptor_equipment_1
+		#	guided_missile_equipment_1
+		#}
 		
 		rocket_artillery = {
 			soft_attack = 0.05
@@ -984,10 +984,10 @@ technologies = {
 		
 		# can build v2s
 		
-		enable_equipments = {
-			rocket_interceptor_equipment_2
-			#guided_missile_equipment_2
-		}
+		#enable_equipments = {
+		#	rocket_interceptor_equipment_2
+		#	guided_missile_equipment_2
+		#}
 		
 		rocket_artillery = {
 			soft_attack = 0.05
@@ -1030,10 +1030,10 @@ technologies = {
 
 		# can build ICBMs?
 		
-		enable_equipments = {
-			rocket_interceptor_equipment_3
-			#guided_missile_equipment_3
-		}
+		#enable_equipments = {
+		#	rocket_interceptor_equipment_3
+		#	guided_missile_equipment_3
+		#}
 		
 		rocket_artillery = {
 			soft_attack = 0.05
@@ -1072,7 +1072,7 @@ technologies = {
 			position = { x = 2 y = 2 }
 		}
 		
-		start_year = 1944
+		start_year = 2944
 		research_cost = 2
 
 		folder = {
@@ -1081,6 +1081,16 @@ technologies = {
 		}
 		
 		desc = "JET_ENGINES_SPECIAL"
+
+		enable_equipments =
+		{
+			rocket_interceptor_equipment_1
+			rocket_interceptor_equipment_2
+			rocket_interceptor_equipment_3
+			guided_missile_equipment_1
+			guided_missile_equipment_2
+			guided_missile_equipment_3
+		}
 
 		on_research_complete = {
 			custom_effect_tooltip = JET_ENGINES_RESEARCHED
@@ -1173,10 +1183,10 @@ technologies = {
 			nuclear
 		}
 		
-		#enable_building = {
-		#	building = nuclear_reactor
-		#	level = 1
-		#}
+		enable_building = {
+			building = nuclear_reactor
+			level = 0
+		}
 	}
 
 	nukes = {
