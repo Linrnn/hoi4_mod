@@ -8,13 +8,13 @@
 		ai_will_do = { factor = 100 }
 	}
 
-	增加步枪 =
-	{
-		allowed = { or = { tag = USA   tag = SOV   tag = GER   tag = ENG   tag = FRA   tag = JAP   tag = ITA } }
-		available = { has_equipment = { infantry_equipment < 0 } }
-		complete_effect = { add_equipment_to_stockpile = { type = infantry_equipment amount = 1000 } }
-		ai_will_do = { factor = 100 }
-	}
+	#增加步枪 =
+	#{
+	#	allowed = { or = { tag = USA   tag = SOV   tag = GER   tag = ENG   tag = FRA   tag = JAP   tag = ITA } }
+	#	available = { has_equipment = { infantry_equipment < 0 } }
+	#	complete_effect = { add_equipment_to_stockpile = { type = infantry_equipment amount = 1000 } }
+	#	ai_will_do = { factor = 100 }
+	#}
 
 	取消限制 =
 	{
