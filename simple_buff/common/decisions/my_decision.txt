@@ -3,7 +3,7 @@
 	增加人力 =
 	{
 		allowed = { or = { tag = USA   tag = SOV   tag = GER   tag = ENG   tag = FRA   tag = JAP   tag = ITA } }
-		available = { has_manpower  < -1000 }
+		available = { has_manpower < 1 }
 		complete_effect = { add_manpower = 1000000 }
 		ai_will_do = { factor = 100 }
 	}
