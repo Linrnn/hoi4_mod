@@ -1,11 +1,57 @@
 事件集合 =
 {
-	增加人力 =
+	增加美国人力 =
 	{
-		allowed = { or = { tag = USA   tag = SOV   tag = GER   tag = ENG   tag = FRA   tag = JAP   tag = ITA } }
-		available = { has_manpower < 1 }
-		complete_effect = { add_manpower = 1000000 }
-		ai_will_do = { factor = 100 }
+		complete_effect = { USA = { add_manpower = 1000000 } }
+		ai_will_do = { factor = 0 }
+	}
+
+	增加苏联人力 =
+	{
+		complete_effect = { SOV = { add_manpower = 1000000 } }
+		ai_will_do = { factor = 0 }
+	}
+
+	增加德国人力 =
+	{
+		complete_effect = { GER = { add_manpower = 1000000 } }
+		ai_will_do = { factor = 0 }
+	}
+
+	增加英国人力 =
+	{
+		complete_effect = { ENG = { add_manpower = 1000000 } }
+		ai_will_do = { factor = 0 }
+	}
+
+	增加法国人力 =
+	{
+		complete_effect = { FRA = { add_manpower = 1000000 } }
+		ai_will_do = { factor = 0 }
+	}
+
+	增加日本人力 =
+	{
+		complete_effect = { JAP = { add_manpower = 1000000 } }
+		ai_will_do = { factor = 0 }
+	}
+
+	增加意大利人力 =
+	{
+		complete_effect = { ITA = { add_manpower = 1000000 } }
+		ai_will_do = { factor = 0 }
+	}
+
+	增加中国人力 =
+	{
+		complete_effect = { CHI = { add_manpower = 1000000 } }
+		ai_will_do = { factor = 0 }
+	}
+
+	增加新中国人力 =
+	{
+		complete_effect = { PRC = { add_manpower = 1000000 } }
+		ai_will_do = { factor = 0 }
 	}
 
 	#增加步枪 =
