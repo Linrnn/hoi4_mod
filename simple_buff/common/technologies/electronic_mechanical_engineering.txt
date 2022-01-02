@@ -45,6 +45,7 @@ technologies = {
 
 		# units with radios can more efficiently join combats when there is room
 		land_reinforce_rate = 0.05
+		coordination_bonus = 0.04
 		
 		path = {
 			leads_to_tech = radio_detection 
@@ -58,6 +59,10 @@ technologies = {
 			position = { x = -2 y = 2 }
 		}
 		
+		enable_equipment_modules = { 
+			tank_radio_1
+		}
+
 		folder = {
 			name = support_folder
 			position = { x = 11 y = 9 } # x = 12 y = 0
@@ -92,7 +97,7 @@ technologies = {
 			building = radar_station
 			level = 1
 		}
-		
+		coordination_bonus = 0.01
 		path = {
 			leads_to_tech = decimetric_radar 
 			research_cost_coeff = 1
@@ -127,11 +132,12 @@ technologies = {
 			leads_to_tech = improved_decimetric_radar 
 			research_cost_coeff = 1
 		}
-		
+		coordination_bonus = 0.01
 		research_cost = 1.25
 		start_year = 1938
 		enable_equipment_modules = { 
 			ship_radar_1
+			tank_radio_2
 		}
 		folder = {
 			name = electronics_folder
@@ -171,7 +177,7 @@ technologies = {
 			building = radar_station
 			level = 3
 		}
-		
+		coordination_bonus = 0.01
 		enable_equipment_modules = { 
 			ship_radar_2
 		}
@@ -217,9 +223,10 @@ technologies = {
 			building = radar_station
 			level = 4
 		}
-
+		coordination_bonus = 0.01
 		enable_equipment_modules = { 
 			ship_radar_3
+			tank_radio_3
 		}
 
 		static_anti_air_hit_chance_factor = 0.2
@@ -265,7 +272,7 @@ technologies = {
 			building = radar_station
 			level = 5
 		}
-
+		coordination_bonus = 0.01
 		
 
 		static_anti_air_hit_chance_factor = 0.2
@@ -311,7 +318,7 @@ technologies = {
 			building = radar_station
 			level = 6
 		}
-
+		coordination_bonus = 0.01
 		enable_equipment_modules = { 
 			ship_radar_4
 		}
@@ -430,7 +437,9 @@ technologies = {
 
 		# small boost to research speed
 		research_speed_factor = 0.08
-		
+		enable_equipment_modules = {
+			stabilizer
+		}
 		path = {
 			leads_to_tech = advanced_computing_machine 
 			research_cost_coeff = 1
@@ -899,7 +908,7 @@ technologies = {
 
 		enable_building = {
 			building = rocket_site
-			level = 0
+			level = 2
 		}
 		
 		path = {
@@ -929,10 +938,10 @@ technologies = {
 		show_equipment_icon = yes
 
 		# can build v1s/rocket planes
-		#enable_equipments = {
-		#	rocket_interceptor_equipment_1
-		#	guided_missile_equipment_1
-		#}
+		enable_equipments = {
+			rocket_interceptor_equipment_1
+			guided_missile_equipment_1
+		}
 		
 		rocket_artillery = {
 			soft_attack = 0.05
@@ -984,10 +993,10 @@ technologies = {
 		
 		# can build v2s
 		
-		#enable_equipments = {
-		#	rocket_interceptor_equipment_2
-		#	guided_missile_equipment_2
-		#}
+		enable_equipments = {
+			rocket_interceptor_equipment_2
+			guided_missile_equipment_2
+		}
 		
 		rocket_artillery = {
 			soft_attack = 0.05
@@ -1030,10 +1039,10 @@ technologies = {
 
 		# can build ICBMs?
 		
-		#enable_equipments = {
-		#	rocket_interceptor_equipment_3
-		#	guided_missile_equipment_3
-		#}
+		enable_equipments = {
+			rocket_interceptor_equipment_3
+			guided_missile_equipment_3
+		}
 		
 		rocket_artillery = {
 			soft_attack = 0.05
@@ -1072,25 +1081,17 @@ technologies = {
 			position = { x = 2 y = 2 }
 		}
 		
-		start_year = 2944
+		start_year = 1944
 		research_cost = 2
-
+		enable_equipment_modules = {
+			tank_gas_turbine_engine
+		}
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 11 }
 		}
 		
 		desc = "JET_ENGINES_SPECIAL"
-
-		enable_equipments =
-		{
-			rocket_interceptor_equipment_1
-			rocket_interceptor_equipment_2
-			rocket_interceptor_equipment_3
-			guided_missile_equipment_1
-			guided_missile_equipment_2
-			guided_missile_equipment_3
-		}
 
 		on_research_complete = {
 			custom_effect_tooltip = JET_ENGINES_RESEARCHED
@@ -1185,7 +1186,7 @@ technologies = {
 		
 		enable_building = {
 			building = nuclear_reactor
-			level = 0
+			level = 1
 		}
 	}
 
