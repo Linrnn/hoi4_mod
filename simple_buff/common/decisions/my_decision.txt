@@ -7,7 +7,15 @@
 	}
 	取消限制 =
 	{
-		complete_effect = { set_rule = { can_create_factions = yes } }	
+		complete_effect =
+		{
+		set_rule =
+			{
+				can_create_factions = yes
+				can_only_justify_war_on_threat_country = no
+				can_declare_war_on_same_ideology = yes
+			}
+		}	
 		ai_will_do = { factor = 0 }
 		fire_only_once = yes
 	}
